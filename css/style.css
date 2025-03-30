@@ -11,10 +11,10 @@
   font-weight: 500;
 }
 .conteiner {
-  max-width: 1310px;
+  max-width: 1340px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 65px;
+  padding: 0 15px;
 }
 
 * {
@@ -30,7 +30,6 @@ img {
 .mainscreen {
   width: 100%;
   background-color: rgb(37, 30, 30);
-  padding: 0 64px;
 }
 
 .header {
@@ -188,4 +187,80 @@ img {
   -o-object-position: center;
      object-position: center;
   margin-right: 30px;
+}
+
+.mainpage__screen {
+  width: 1040px;
+  height: 808px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.information {
+  display: flex;
+  gap: 142px;
+  margin-top: 211px;
+}
+
+.information__left {
+  display: flex;
+  gap: 50px;
+  padding-top: 31px;
+}
+
+.information__naming {
+  display: block;
+  width: 61px;
+  color: rgb(180, 180, 180);
+  font-family: SF Pro Text;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 25px;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  margin-top: 19px;
+}
+
+.information__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.information__title {
+  color: rgb(37, 30, 30);
+  font-family: SF Pro Text;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 31px;
+}
+
+.information__paragraph {
+  color: rgb(37, 30, 30);
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 146%;
+  margin-bottom: 30px;
+}
+
+.information__btn {
+  display: block;
+  background: rgb(37, 30, 30);
+  padding: 10px 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.information__image {
+  width: 640px;
+  height: 422px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 .mainscreen {
     width: 100%;
     background-color: rgb(37, 30, 30);
-    padding: 0 64px;
+    // padding: 0 64px;
 }
 
 .header {
@@ -162,4 +162,12 @@
     object-fit: cover;
     object-position: center;
     margin-right: 30px;
+}
+
+.mainpage__screen {
+    width: 1040px;
+    height: 808px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
 }
