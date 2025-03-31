@@ -1,0 +1,51 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.product__title {
+    color: rgb(250, 88, 42);
+    font-family: SF Pro Text;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 29px;
+}
+
+.product__subtitle {
+    color: rgb(37, 30, 30);
+    font-family: SF Pro Text;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.product__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product__card {
+    max-width: 437px;
+    width: 100%;
+    height: 293.99px;
+    padding: 198px 224px 27px 27px;
+}
+
+// .product__img {
+//     width: 437px;
+//     height: 293.99px;
+// }
+
+.product__text {
+    display: block;
+    text-align: left;
+    background-image: url(./../../image/img/product-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // position: absolute;
+}
