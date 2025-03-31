@@ -263,4 +263,35 @@ img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.video {
+  display: flex;
+  margin-top: 150px;
+}
+
+.video__img {
+  width: 1086px;
+  height: 690px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.video__icon {
+  position: absolute;
+  width: 62.9px;
+  height: 62.9px;
+  right: 51%;
+  top: 224%;
+}
+
+.video__image {
+  width: 224.41px;
+  height: 690px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

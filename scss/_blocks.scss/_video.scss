@@ -1,0 +1,31 @@
+.video {
+    display: flex;
+    margin-top: 150px;
+}
+
+.video__img {
+    width: 1086px;
+    height: 690px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.video__icon {
+    position: absolute;
+    // top: 100%;
+    width: 62.9px;
+    height: 62.9px;
+    // background-color: black;
+    right: 51%;
+    top: 224%;
+
+    // left: 882.1px;
+    // top: 2251.29px;
+}
+
+.video__image {
+    width: 224.41px;
+    height: 690px;
+    object-position: center;
+    object-fit: cover;
+}
