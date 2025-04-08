@@ -272,6 +272,7 @@ img {
 .video {
   display: flex;
   margin-top: 150px;
+  position: relative;
 }
 
 .video__img {
@@ -287,8 +288,9 @@ img {
   position: absolute;
   width: 62.9px;
   height: 62.9px;
-  right: 51%;
-  top: 224%;
+  left: 43%;
+  top: 50%;
+  transform: translate(20%, -40%);
 }
 
 .video__image {
@@ -307,6 +309,7 @@ img {
   text-align: center;
   align-items: center;
   margin-top: 150px;
+  position: relative;
 }
 
 .product__title {
@@ -330,29 +333,82 @@ img {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.product__card {
+.product__img {
   max-width: 437px;
   width: 100%;
   height: 293.99px;
-  padding: 198px 224px 27px 27px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.product__btn {
+  position: absolute;
+  color: rgb(37, 30, 30);
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-weight: 400;
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 5px;
+  right: -100%;
+  top: -180%;
+  transform: translate(50%, -170%);
 }
 
 .product__text {
   display: block;
+  max-width: 185px;
+  width: 100%;
   text-align: left;
-  background-image: url(./../../image/img/product-1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: absolute;
+  transform: translate(13%, -150%);
+}
+
+.product__head {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Text;
+  font-size: 24px;
+  font-weight: 400;
+  word-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.product__desc {
+  color: rgb(213, 213, 213);
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.product__view {
+  margin-top: 50px;
+}
+
+.product__button {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgb(37, 30, 30);
+  padding: 10px 16px;
 }
 
 .more {
   display: flex;
+  flex-direction: row;
   gap: 30px;
   align-items: center;
   background: linear-gradient(181.01deg, rgb(31, 33, 34) 0.694%, rgb(22, 33, 41) 57.067%);
   margin-top: 150px;
   padding: 75px 85px 51px 25px;
+}
+
+.more__left {
+  max-width: 280px;
+  width: 100%;
 }
 
 .more__desc {
@@ -383,6 +439,8 @@ img {
 }
 
 .more__text {
+  max-width: 414px;
+  width: 100%;
   background-color: rgb(255, 255, 255);
   padding-top: 88px;
   padding-left: 29px;
@@ -402,4 +460,58 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+}
+
+.contact {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.contact__img {
+  position: relative;
+}
+
+.contact__bg {
+  width: 100%;
+}
+
+.contact__text {
+  position: absolute;
+  max-width: 482px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  left: 30%;
+  top: 10%;
+  transform: translate(3%, 20%);
+}
+
+.contact__title {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Text;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contact__subtitle {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+
+.contact__btn {
+  display: block;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid rgb(135, 135, 135);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 16px;
 }/*# sourceMappingURL=style.css.map */

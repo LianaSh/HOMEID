@@ -1,6 +1,7 @@
 .video {
     display: flex;
     margin-top: 150px;
+    position: relative;
 }
 
 .video__img {
@@ -12,15 +13,12 @@
 
 .video__icon {
     position: absolute;
-    // top: 100%;
     width: 62.9px;
     height: 62.9px;
     // background-color: black;
-    right: 51%;
-    top: 224%;
-
-    // left: 882.1px;
-    // top: 2251.29px;
+    left: 43%;
+    top: 50%;
+    transform: translate(20%, -40%);
 }
 
 .video__image {
